@@ -26,13 +26,13 @@ Hello, Docker!
 請確保你已安裝好 Docker，然後執行：
 
 ```bash
-docker pull ethanlin/2025cloud:v1
+docker pull 61347023s/2025cloud:v1
 ```
 
 ### 2️⃣ 執行容器
 
 ```bash
-docker run -p 5000:5000 ethanlin/2025cloud:v1
+docker run -p 5000:5000 61347023s/2025cloud:v1
 ```
 
 開啟瀏覽器，進入 [http://localhost:5000](http://localhost:5000)，應會看到：
@@ -64,13 +64,13 @@ docker run -p 5000:5000 my-flask-app
 ## 📤 上傳至 Docker Hub（需已登入）
 
 ```bash
-docker tag my-flask-app ethanlin/2025cloud:v1
-docker push ethanlin/2025cloud:v1
+docker tag my-flask-app 61347023s/2025cloud:v1
+docker push 61347023s/2025cloud:v1
 ```
 
 ---
 
 ## 📌 備註
 
-- 作者：Ethan Lin  
-- Docker Hub Repository：[https://hub.docker.com/repository/docker/ethanlin/2025cloud](https://hub.docker.com/repository/docker/ethanlin/2025cloud)
+- 作者：61347023s  
+- Docker Hub Repository：[https://hub.docker.com/repository/docker/ethanlin/2025cloud](https://hub.docker.com/repository/docker/61347023s/2025cloud)
