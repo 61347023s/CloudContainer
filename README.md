@@ -74,7 +74,8 @@ docker push 61347023s/2025cloud:v1
 本專案已整合 GitHub Actions，在以下情況會自動建構並處理 Docker Container Image：
 
 🔁 自動建構觸發條件
-觸發情境	描述
+觸發情境描述
+
 Push 到 main 分支: 代表正式部署版本，會自動 build 並 push image 到 Docker Hub
 建立 Pull Request 到 main: 僅進行 build 測試，驗證 Dockerfile 是否正確，但不 push image
 
