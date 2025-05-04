@@ -2,7 +2,10 @@ name: Docker Image CI
 
 on:
   push:
-    branches: [ "main" ]   # 當 main 分支有 push 時執行
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]  # ✅ 加上這行才能在 PR 發生時觸發 CI
+
 
 jobs:
   build:
